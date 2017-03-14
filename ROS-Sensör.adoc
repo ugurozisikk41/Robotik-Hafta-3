@@ -1,0 +1,202 @@
+== ROS’un Destekledikleri Sensörler
+
+Resmi ROS paketleri tarafından desteklenen ve daha pek çok ROS topluluğu tarafından desteklenen bir çok robotik sensör bulunmaktadır. Bunlar aşağıda listelenmiştir.
+
+=== 2D aralık bulucu
+
+SLAM algoritmalarından iyi sonuçlar elde etmek için gerekli olan yüksek çözünürlüklü veriler sağlarlar. 
+2D aralık bulucu sensör, geniş bir görüş alanı ve haritalama ve engel önleme için geniş bir algılama aralığı sağlarlar.
+
+==== Daha fazla bilgi için: http://wiki.ros.org/Sensors/2D%20range%20finders
+
+==== Hokuyo Laser Sensör video 
+
+https://www.youtube.com/watch?v=DPKVk_uRsnU
+
+https://www.youtube.com/watch?v=ATzIs79T8mk
+
+==== Diğer 2D aralık bulucu sensörler
+
+•	Hokuyo Scanning range finder
+•	SICK LMS2xx lasers
+•	SICK LMS1xx lasers
+•	Sick(R) S300 Professional
+•	Leuze rotoScan laser rangefinder driver (ROD-4, RS4)
+•	Neato XV-11 Laser Driver
+•	Sick LD-MRS Laser Driver
+•	SICK TiMxxx lasers
+•	Pepperl+Fuchs R2000 laser
+•	SICK S3000 laser
+•	RPLIDAR 360 laser scanner Driver(python)
+•	RPLIDAR A1/2 laser(c++)
+
+
+=== 3D Algılayıcılar
+
+3 boyutlu sensörlerin kullanılmaya başlanması, düşük maliyetli 3D mesafe bulucu ve RGB-Derinlik kameralarının üretilmesi robotikte en önemli gelişmelerden biridir.
+Bu sensörler robotikte yepyeni bir boyut açmıştır.
+
+==== Daha fazla bilgi için: http://wiki.ros.org/Sensors/3D%20Sensors
+
+==== 3D Laser Sensor video 
+
+https://www.youtube.com/watch?v=X7abiYcgVd4
+
+https://www.youtube.com/watch?v=7epTZM0yHA4
+
+==== Diğer 3D Sensörler (menzilli bulucular ve RGB-D kameralar)
+
+•	DUO3D™ stereo camera
+•	Intel® RealSense™
+•	Intel RealSense F200/VF0800
+•	Mesa Imaging SwissRanger devices (3000/4000/4500)
+•	OpenNI driver for Kinect and PrimeSense 3D sensors
+•	Velodyne HDL-64E 3D LIDAR
+•	Forecast 3D Laser with SICK LIDAR
+•	PMD Camcube 3.0
+•	Argos3D P100 ToF camera
+•	Sentis ToF M100 camera
+•	Nerian Vision Technologies SP1
+•	Orbbec Astra
+
+=== Kameralar
+
+Kameralar, nesnel tanımlama, izleme ve manipülasyon görevleri için kullanılabilen görüntü verilerini robota sağlar.
+Bu portal şu anda monoküler ve stereo kameralar içermektedir.
+
+==== Daha fazla bilgi için: http://wiki.ros.org/Sensors/Cameras
+
+==== Kamera sensör video
+
+https://www.youtube.com/watch?v=o1GSQanY-Do
+
+https://www.youtube.com/watch?v=17W8dkzkvWA
+
+
+==== Diğer Kamera sensörleri
+
+•	camera_aravis (ethernet camera driver)
+•	canon_gphoto
+•	cmucam_png
+•	DUO3D™ stereo camera
+•	dynamic_uvc_cam
+•	gencam_cu
+•	GeViCAM stereo camera
+•	gstreamer camera driver
+•	gPhoto Driver
+•	IEEE 1394 Digital Camera
+•	libuvc USB Video Class driver
+•	MatrixVision BlueFOX
+•	PointGrey Cameras (with FlyCapture2)
+•	Prosilica Camera
+•	usb_cam
+•	videre_stereo_cam
+•	WGE100 camera
+•	Occam Vision Group Omni Stereo camera
+•	ZED stereo camera
+
+
+=== Tahmin - Olasılık Sensörleri
+
+Bir tahmin sensörü, bir robotun mutlak veya göreceli konumu ve yönü hakkında bilgi sağlayabilir. 
+Bu sensörler arasında jiroskoplar, manyetometreler, ivmeölçerler, uydu navigasyonu gibi sistemler bulunur. 
+Bunlar kaynaştırılmış bir çıktı sağlayan dahili durum tahmininde bulunan tek bir donanım aygıtı olarak birlikte paketlenirler.
+
+==== Daha fazla bilgi için: http://wiki.ros.org/Sensors/Pose%20Estimation
+
+==== Video : 
+
+https://www.youtube.com/watch?v=BJaNt36DQ3w
+
+https://www.youtube.com/watch?v=IDq3QWnEndc
+
+==== Diğer tahmin-olasılık sensörleri
+
+•	Applanix Position and Orientation System for Land Vehicles
+•	Bosch Sensortec BMA180 3-axis accelerometer
+•	DUO3D™ IMU sensor
+•	Bosch SMI530/540 3-axis sensor
+•	CH Robotics UM6 IMU
+•	gpsd_client
+•	microstrain_3dmgx2_imu
+•	Microstrain 3DM-GX3-45
+•	myahrs_driver
+•	nmea_navsat_driver
+•	Oxford Technical Solutions (OXTS) GPS/IMU products
+•	Phidgets PhidgetsSpatial 3/3/3
+•	SBG System Ellipse (A, E, N, D)
+•	Swiftnav Piksi RTK-GPS
+•	Xsens MTi node
+•	Xsens MTI Measurement Unit
+•	Xsens MTx/MTi/MTi-G devices
+•	Razor's IMU 9 DOF (Degree of Freedom) board
+•	ZED stereo camera tracking
+
+=== Hareket yakalama Sensörleri
+
+•	OptiTrack Motion Capture system using NatNet and VRPN.
+•	Phase Space optical motion capture system
+•	VICON motion capture system
+•	Motion Analysis motion capture system
+•	leap_motion
+
+==== VİDEO :
+
+https://www.youtube.com/watch?v=FxaTDvs34mM
+
+https://www.youtube.com/watch?v=UbqH3ahZ2NU
+
+https://www.youtube.com/watch?v=24TCUZISIdU
+
+
+=== Ses/Konuşma Tanıma
+•	Baidu_speech
+•	hark
+•	pocketsphinx
+•	Ropespex
+
+==== VİDEO 
+
+https://www.youtube.com/watch?v=MTK00i5uY2k
+
+https://www.youtube.com/watch?v=2FUMGUOvU-g
+
+
+=== Diğer Sensörler aşağıda listelenmiştir daha fazla bilgi almak için: http://wiki.ros.org/Sensors
+
+=== 1D mesafe bulucular
+•	Sharp IR range finder (via ArbotiX RoboController)
+•	TeraRanger One ToF range finder
+•	TeraRanger Duo ToF/Sonar range finder
+
+
+=== Kuvvet / Tork / Dokunma Sensörleri
+
+•	Schunk LWA 3 Force Torque Controller based on ATI Mini 45
+•	Nano17 6-axis force/torque sensors
+•	skin_driver
+•	Interface to ATI NetFT sensor adapter
+•	ATI nano 25 and AMTI HE6x6 force plate
+•	Wacoh-Tech DynPick
+•	Leptrino force/torque sensor
+
+
+=== Güç kaynağı
+•	Carnetix CNX-P2140 DC-DC power supply
+•	Mini-Box M4-ATX power supply
+•	Ocean Server Technology Intelligent Battery and Power System
+•	
+== Sensör Arabirimleri
+•	Arduino Sensor Interface Module
+•	ArbotiX RoboController
+•	Lego NXT Sensors
+•	Phidgets sensor interface
+•	Phidgets sensor interface with differential drive
+•	Phidgets Interface
+•	libphidgets21
+•	pmad
+•	roboard_sensors
+•	rosserial_arduino
+•	serializer
+•	Sensoray 626 analog and digital I/O
+•	Shadow RoNeX
